@@ -30,17 +30,7 @@ const Overview = () => {
             </div>
                 <div className={styles.slider}>
                     <Swiper
-                        // spaceBetween={20}
-                        // modules={[Autoplay, Scrollbar]}
-                        // slidesPerView={1}
-                        // lazyPreloadPrevNext={2}
-                        // speed={1200}
-                        // effect={"coverflow"}
-                        // scrollbar={{draggable: true}}
-                        // autoplay={{
-                        //     delay: 4000,
-                        //     disableOnInteraction: true,
-                        // }}
+        
                         navigation
                         modules={[Autoplay, Scrollbar, EffectCoverflow]}
                         pagination={{ clickable: true }}
