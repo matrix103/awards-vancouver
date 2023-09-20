@@ -9,7 +9,7 @@ const Awards = () => {
                 <div className={styles.tittle}>
                     Awards
                     <div className={styles.cup}>
-                        <img src={"/images/Awards/cup.png"}/>
+                        <img src={"/images/Awards/cup.png"} alt=''/>
                     </div>
                 </div>
                 <div className={styles.description}>
