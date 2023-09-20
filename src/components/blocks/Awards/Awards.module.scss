@@ -1,5 +1,5 @@
 .body{
-    background-color: rgb(225, 168, 29);
+    background-color: #FFFFFF;
 
 }
 .wrapper{
@@ -7,41 +7,34 @@
     display: flex;
     flex-direction: column;
     width: 1200px;
-    margin: 0px auto 0 auto;
-
+    margin: 0 auto;
+    padding: 60px 0 20px 0;
 }
 
 .text{
-    font-size: 36px;
-    margin-top: 40px;
+    font-size: 20px;
 }
 
-.tittle{
-    font-size: 48px;
+.title{
+    color: #EABB52FF;
+    font-size: 40px;
     display: flex;
-    width: 220px; 
-    padding: 10px 20px 10px 20px; 
-    border-radius: 50px; 
-    border: 6px solid black; 
+    font-weight: 700;
     gap: 5px;
-    
+    margin-bottom: 40px;
+    text-align: end;
+    padding: 0 0 10px 0;
+    border-bottom: 2px solid #EABB52FF;
+    width: fit-content;
 }
 
 .cup{
     display: flex;
     height: 50px;
     width: 50px;
+    color: #EABB52FF;
 }
 
 .description{
-    font-style: normal;
-}
-
-.description_one{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.description_two{
-    padding-bottom: 60px;
+    margin-bottom: 40px;
 }

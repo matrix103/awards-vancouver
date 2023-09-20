@@ -18,19 +18,18 @@ const Overview = () => {
         <div className={styles.wrapper}>
             <div className={styles.container}>
                 <div className={styles.text}>
-                <div className={styles.title}>
-                    Best Director & Filmmaker Awards
-                </div>
-                <div className={styles.description}>
-                    The Best Director & Filmmaker Awards – Vancouver is an international competition held every four months, culminating in an annual screening event that celebrates the world's finest film directors, actors, and filmmakers. Our mission is to acknowledge outstanding talent and unwavering dedication in the realms of film directing, performance, and filmmaking within the independent cinema landscape. From a year's worth of exceptional entries, only the most exceptional films will earn a coveted spot in the annual screening event in Vancouver.
-                </div>
-                    <div className={styles.button}>
-                        <Button type={"primary"} size={"large"}>Sublit Now</Button>
+                    <div className={styles.title}>
+                        Our Mission
                     </div>
-            </div>
+                    <div className={styles.description}>
+                        Is to acknowledge outstanding talent and unwavering dedication in the realms of film directing, performance, and filmmaking within the independent cinema landscape. From a year's worth of exceptional entries, only the most exceptional films will earn a coveted spot in the annual screening event in Vancouver.
+                    </div>
+                    <div className={styles.button}>
+                        <img src={"/images/FFButtons/gold.png"}/>
+                    </div>
+                </div>
                 <div className={styles.slider}>
                     <Swiper
-        
                         navigation
                         modules={[Autoplay, Scrollbar, EffectCoverflow]}
                         pagination={{ clickable: true }}
@@ -63,7 +62,6 @@ const Overview = () => {
                     </Swiper>
                 </div>
             </div>
-
         </div>
     );
 };
