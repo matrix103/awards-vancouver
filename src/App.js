@@ -6,6 +6,7 @@ import Categories from "./components/blocks/Categories";
 import Footer from "./components/blocks/Footer";
 import Rules from "./components/blocks/Rules";
 import Banner from "./components/blocks/Banner";
+import Submit from "./components/blocks/Submit";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 
           <Categories/>
           <Rules/>
+          <Submit/>
           <Footer/>
 
           {/*<Routes>*/}
