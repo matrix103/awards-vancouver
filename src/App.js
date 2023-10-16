@@ -18,17 +18,11 @@ function App() {
           <Awards/>
           <Overview />
           <Gallery/>
-
           <Categories/>
           <Rules/>
           <Submit/>
           <Footer/>
 
-          {/*<Routes>*/}
-          {/*  <Route path='/' element={<Home />} />*/}
-          {/*  <Route path='privacy-policy' element={<PrivacyPolicy />} />*/}
-          {/*</Routes>*/}
-          {/*<Footer/>*/}
       </div>
 
   );

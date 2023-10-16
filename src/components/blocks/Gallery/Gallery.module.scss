@@ -2,8 +2,8 @@
   font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
-  width: 1200px;
-  margin: 60px auto 60px auto;
+  width: 100%;
+  margin: 60px 0;
 }
 
 .title{
@@ -21,6 +21,9 @@
   color: black;
   width: 60%;
   margin: 0 0 40px 0;
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+  }
 }
 
 .photoWrapper{
@@ -75,5 +78,19 @@
   grid-row-end: 10;
   grid-column-start: 7;
   grid-column-end: 10;
+}
+
+.slider{
+  width: 100%;
+  max-height: 500px;
+  border-radius: 16px;
+  box-shadow: white;
+}
+
+.sliderImage{
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 16px;
 }
 

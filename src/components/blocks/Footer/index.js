@@ -1,28 +1,27 @@
 import React from 'react';
 import styles from "./Footer.module.scss"
+import Container from "../../UI/Container";
 
 const Footer = () => {
     return (
         <div className={styles.body}>
+            <Container>
         <div className={styles.wrapper}>
             <div className={styles.text}>
                 <div className={styles.rows}>
                     <div className={styles.logo}>
                         <img src="/images/Footer/logo.png" alt='' />
                     </div>
+                    {/*<div className={styles.row}>*/}
+                    {/*    <a href="mailto:example@gmail.ru">Contact Us example@gmail.ru</a>*/}
+                    {/*</div>*/}
                     <div className={styles.row}>
-                    Contact Us
-                        <a href="mailto:example@gmail.ru">example@gmail.ru</a>
+                        <a href={'#awards'}>Awards</a>
+                        <a href={'#categories'}>Categories</a>
                     </div>
                     <div className={styles.row}>
-                        <a href='#'>About Us</a>
-                        <a href='#'>Categories</a>
-                        <a href='#'>Awards</a>
-                    </div>
-                    <div className={styles.row}>
-                        <a href='#'>Rules</a>
-                        <a href='#'>Screenings</a>
-                        <a href='#'>Interviews</a>
+                        <a href={'#rules'}>Rules</a>
+                        <a href={'https://filmfreeway.com/bestdirectorawards'}>Submit Now</a>
                     </div>
                 </div>
             </div>
@@ -30,6 +29,7 @@ const Footer = () => {
                 Copyright © 2023 Vancouver Awards
             </div>
         </div>
+            </Container>
         </div>
     );
 };

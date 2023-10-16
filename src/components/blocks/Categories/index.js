@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from "./Categories.module.scss"
+import Container from "../../UI/Container";
 
 const Categories = () => {
     return (
-        <div className={styles.body}>
+        <div className={styles.body} id={"categories"}>
+            <Container>
                 <div className={styles.wrapper}>
-                    <div className={styles.text}>
+
                         <div className={styles.tittle}>
                             Categories
                         </div>
@@ -48,8 +50,9 @@ const Categories = () => {
                                 Best 1st-time Director of a Short</li>
                             </ul>
                         </div>
-                    </div>
+
                 </div>
+            </Container>
         </div>
     );
 };
